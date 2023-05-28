@@ -1,3 +1,0 @@
-celsius = int(input("Digite o valor da temperatura em celsius: "))
-fahrenheit = (9 * celsius +160)/5
-print(f"A sua temperatura transformada em fahrenheit é {fahrenheit}°f")

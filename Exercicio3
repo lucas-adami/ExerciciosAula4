@@ -1,0 +1,9 @@
+anoAtual = 2023
+anoNascimento = int(input("Digite o ano que você nasceu: "))
+
+idade = anoAtual - anoNascimento
+idade_meses = idade * 12
+idade_dias = idade * 365
+idade_semanas = idade_dias / 52
+
+print(f"A sua idade é {idade} anos ou {idade_meses} em meses ou {idade_dias} em dias ou {idade_semanas} em semanas")
